@@ -8,7 +8,9 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class HomePage {
   data: any;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    this.getData()
+   }
 
   getData() {
     this.http.get('http://10.102.200.1/UniverseWS/Universe?service=wmts&request=GetCapabilities')
