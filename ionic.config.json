@@ -1,0 +1,7 @@
+{
+  "name": "windowsAuth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
